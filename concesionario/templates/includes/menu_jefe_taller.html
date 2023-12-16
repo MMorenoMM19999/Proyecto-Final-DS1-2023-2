@@ -1,0 +1,27 @@
+<li>
+	<a href="{% url 'orden_de_trabajo:crear' %}">
+		<i class="fa fa-archive"></i>
+		<span>
+			 Orden de Trabajo
+		</span>
+	</a>
+</li>
+<li>
+	<a href="{% url 'orden_de_trabajo:listar' %}">
+		<i class="fa fa-tasks"></i>
+		<span>
+			Gestionar Tareas
+		</span>
+	</a>
+</li>
+<li class="has-sub">
+	<a href="javascript:;">
+		<b class="caret pull-right"></b>
+		<i class="fa fa-users"></i>
+		<span >Gestionar Clientes</span>
+	</a>
+	<ul class="sub-menu">
+		<li><a href="{% url 'cliente:crear' %}"> Nuevo </a></li>
+		<li><a href="{% url 'cliente:listar' %}"> Listar/Editar</a></li>
+	</ul>
+</li>
