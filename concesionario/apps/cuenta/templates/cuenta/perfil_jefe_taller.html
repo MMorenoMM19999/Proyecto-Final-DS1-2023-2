@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+{% block css %}{{ block.super }}{% endblock %}
+{% block breadcrumb %} {% endblock %}
+{% block section_title %}{% endblock %}
+{% block section_subtitle %}{% endblock %}
+{% block content %}
+{% if Error %}
+<div class="container">
+    <h3>{{Error}}</h3>
+    <h5 style="margin-top: 20px;"><a href="{{link}}">Click </a> para añadir</h5>
+</div>
+{% endif %}
+{% endblock %}
+{% block javascript %}{{ block.super }}{% endblock %}
