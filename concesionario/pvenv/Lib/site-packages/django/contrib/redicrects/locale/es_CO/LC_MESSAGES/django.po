@@ -1,14 +1,18 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Carlos Muñoz <cmuozdiaz@outlook.com>, 2015
+# Antoni Aloy <aaloy@apsl.net>, 2015
+# Ernesto Avilés, 2015
+# Igor Támara <igor@tamarapatino.org>, 2015
+# Pablo, 2015
+# Veronicabh <vero.blazher@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
-"PO-Revision-Date: 2017-09-19 22:02+0000\n"
-"Last-Translator: Carlos Muñoz <cmuozdiaz@outlook.com>\n"
+"POT-Creation-Date: 2020-05-11 20:56+0200\n"
+"PO-Revision-Date: 2020-05-12 20:01+0000\n"
+"Last-Translator: Transifex Bot <>\n"
 "Language-Team: Spanish (Colombia) (http://www.transifex.com/django/django/"
 "language/es_CO/)\n"
 "MIME-Version: 1.0\n"
@@ -17,34 +21,92 @@ msgstr ""
 "Language: es_CO\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Redirects"
-msgstr "Redirecciones"
+msgid "PostgreSQL extensions"
+msgstr "Extensiones de PostgreSQL"
 
-msgid "site"
-msgstr "sitio"
-
-msgid "redirect from"
-msgstr "redirigir desde"
-
-msgid ""
-"This should be an absolute path, excluding the domain name. Example: '/"
-"events/search/'."
+#, python-format
+msgid "Item %(nth)s in the array did not validate:"
 msgstr ""
-"Esta ruta debería ser absoluta, excluyendo el nombre de dominio. Ejemplo: '/"
-"events/search/'."
 
-msgid "redirect to"
-msgstr "redirigir a"
+msgid "Nested arrays must have the same length."
+msgstr "Los arreglos anidados deben tener la misma longitud."
 
-msgid ""
-"This can be either an absolute path (as above) or a full URL starting with "
-"'http://'."
+msgid "Map of strings to strings/nulls"
 msgstr ""
-"Esto puede ser una ruta absoluta (como antes) o una URL completa que empiece "
-"con 'http://'."
 
-msgid "redirect"
-msgstr "redirección"
+#, python-format
+msgid "The value of “%(key)s” is not a string or null."
+msgstr ""
 
-msgid "redirects"
-msgstr "redirecciones"
+msgid "Could not load JSON data."
+msgstr "No se pududieron cargar los datos JSON."
+
+msgid "Input must be a JSON dictionary."
+msgstr ""
+
+msgid "Enter two valid values."
+msgstr "Ingrese dos valores válidos."
+
+msgid "The start of the range must not exceed the end of the range."
+msgstr "El comienzo del rango no puede exceder su final."
+
+msgid "Enter two whole numbers."
+msgstr "Ingrese dos números enteros."
+
+msgid "Enter two numbers."
+msgstr "Ingrese dos números."
+
+msgid "Enter two valid date/times."
+msgstr "Ingrese dos fechas/horas válidas."
+
+msgid "Enter two valid dates."
+msgstr "Ingrese dos fechas válidas."
+
+#, python-format
+msgid ""
+"List contains %(show_value)d item, it should contain no more than "
+"%(limit_value)d."
+msgid_plural ""
+"List contains %(show_value)d items, it should contain no more than "
+"%(limit_value)d."
+msgstr[0] ""
+"La lista contiene %(show_value)d elemento, no debería contener más de "
+"%(limit_value)d."
+msgstr[1] ""
+"La lista contiene %(show_value)d elementos, no debería contener más de "
+"%(limit_value)d."
+
+#, python-format
+msgid ""
+"List contains %(show_value)d item, it should contain no fewer than "
+"%(limit_value)d."
+msgid_plural ""
+"List contains %(show_value)d items, it should contain no fewer than "
+"%(limit_value)d."
+msgstr[0] ""
+"La lista contiene %(show_value)d elemento, no debería contener menos de "
+"%(limit_value)d."
+msgstr[1] ""
+"La lista contiene %(show_value)d elementos, no debería contener menos de "
+"%(limit_value)d."
+
+#, python-format
+msgid "Some keys were missing: %(keys)s"
+msgstr "Faltan algunas claves: %(keys)s"
+
+#, python-format
+msgid "Some unknown keys were provided: %(keys)s"
+msgstr "Se facilitaron algunas claves desconocidas: %(keys)s"
+
+#, python-format
+msgid ""
+"Ensure that this range is completely less than or equal to %(limit_value)s."
+msgstr "Asegúrese de que este rango es menor o igual que %(limit_value)s."
+
+#, python-format
+msgid ""
+"Ensure that this range is completely greater than or equal to "
+"%(limit_value)s."
+msgstr ""
+"Asegúrese de que este rango es efectivamente mayor o igual que "
+"%(limit_value)s."

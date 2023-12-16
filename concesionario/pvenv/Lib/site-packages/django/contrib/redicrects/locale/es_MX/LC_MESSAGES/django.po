@@ -1,17 +1,14 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Abe Estrada, 2011
 # Alex Dzul <alexexc2@gmail.com>, 2015
-# Jesús Bautista <jesbam98@gmail.com>, 2019
-# zodman <zodman@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-08 17:27+0200\n"
-"PO-Revision-Date: 2019-12-26 16:57+0000\n"
-"Last-Translator: Jesús Bautista <jesbam98@gmail.com>\n"
+"POT-Creation-Date: 2020-05-11 20:56+0200\n"
+"PO-Revision-Date: 2020-05-12 20:01+0000\n"
+"Last-Translator: Transifex Bot <>\n"
 "Language-Team: Spanish (Mexico) (http://www.transifex.com/django/django/"
 "language/es_MX/)\n"
 "MIME-Version: 1.0\n"
@@ -20,34 +17,82 @@ msgstr ""
 "Language: es_MX\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Redirects"
-msgstr "Redirección"
+msgid "PostgreSQL extensions"
+msgstr "Extensiones PostgreSQL"
 
-msgid "site"
-msgstr "sitio"
-
-msgid "redirect from"
-msgstr "redirigir desde"
-
-msgid ""
-"This should be an absolute path, excluding the domain name. Example: “/"
-"events/search/”."
+#, python-format
+msgid "Item %(nth)s in the array did not validate:"
 msgstr ""
-"Esta debería ser una ruta absoluta, excluyendo el nombre de dominio. Por "
-"ejemplo: \"/events/search/\"."
 
-msgid "redirect to"
-msgstr "redirigir a"
-
-msgid ""
-"This can be either an absolute path (as above) or a full URL starting with "
-"“http://”."
+msgid "Nested arrays must have the same length."
 msgstr ""
-"Esto puede ser una ruta absoluta (como arriba) o una URL completa que "
-"comience con \"http://\"."
 
-msgid "redirect"
-msgstr "redirigir"
+msgid "Map of strings to strings/nulls"
+msgstr ""
 
-msgid "redirects"
-msgstr "redirecciona"
+#, python-format
+msgid "The value of “%(key)s” is not a string or null."
+msgstr ""
+
+msgid "Could not load JSON data."
+msgstr ""
+
+msgid "Input must be a JSON dictionary."
+msgstr ""
+
+msgid "Enter two valid values."
+msgstr "Ingrese dos valores válidos"
+
+msgid "The start of the range must not exceed the end of the range."
+msgstr ""
+
+msgid "Enter two whole numbers."
+msgstr ""
+
+msgid "Enter two numbers."
+msgstr "Ingrese dos números"
+
+msgid "Enter two valid date/times."
+msgstr ""
+
+msgid "Enter two valid dates."
+msgstr "Ingrese dos fechas válidas"
+
+#, python-format
+msgid ""
+"List contains %(show_value)d item, it should contain no more than "
+"%(limit_value)d."
+msgid_plural ""
+"List contains %(show_value)d items, it should contain no more than "
+"%(limit_value)d."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid ""
+"List contains %(show_value)d item, it should contain no fewer than "
+"%(limit_value)d."
+msgid_plural ""
+"List contains %(show_value)d items, it should contain no fewer than "
+"%(limit_value)d."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "Some keys were missing: %(keys)s"
+msgstr ""
+
+#, python-format
+msgid "Some unknown keys were provided: %(keys)s"
+msgstr ""
+
+#, python-format
+msgid ""
+"Ensure that this range is completely less than or equal to %(limit_value)s."
+msgstr ""
+
+#, python-format
+msgid ""
+"Ensure that this range is completely greater than or equal to "
+"%(limit_value)s."
+msgstr ""
